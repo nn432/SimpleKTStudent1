@@ -1,3 +1,8 @@
+using SimpleKTStudent.Infrastructure;
+using SimpleKTStudent.Domain.Interfaces.Repositories;
+using SimpleKTStudent.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
