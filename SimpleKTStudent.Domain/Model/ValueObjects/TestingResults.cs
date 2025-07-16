@@ -13,6 +13,10 @@ public class TestingResults
     /// </summary>
     public int AttempCount { get; set; }
     /// <summary>
+    /// Число правильных ответов.
+    /// </summary>
+    public int NumberCorrectAnswers { get; set; }
+    /// <summary>
     /// Средне-арифметическое число правильных ответов.
     /// </summary>
     public int AverageCorrectAnswersCount { get; set; }

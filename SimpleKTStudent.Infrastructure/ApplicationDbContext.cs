@@ -15,7 +15,6 @@ namespace SimpleKTStudent.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            // Можно настроить Fluent API маппинг здесь при необходимости
         }
     }
 }
